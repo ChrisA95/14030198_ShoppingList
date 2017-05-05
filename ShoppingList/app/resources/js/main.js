@@ -28,7 +28,7 @@
 
    function addItem (value) {
       addItemToDOM(value);
-      document.getElementById('item').value = ''
+      document.getElementById('item').value = '';
 
       data.shoppingList.push(value);
       dataObjectUpdated();
